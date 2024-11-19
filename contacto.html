@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="barra-navegacion">
+            <ul class="menu-navegacion">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li class="desplegable"><a href="productos.html">Productos</a>
+                    <ul class="sub-menu">
+                        <li><a href="productos.html">Alimentos</a></li>
+                        <li><a href="productos.html">Juguetes</a></li>
+                        <li><a href="productos.html">Accesorios</a></li>
+                    </ul></li>
+                <li><a href="#Adopciones">Adopciones</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="principal">
+            <h1>formulario de registro</h1>
+                <form class="form-registro">
+                    <fieldset class="formulario">
+                    <div class="campo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido">
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Telefono:</label>
+                        <input type="text"id="telefono" name="telefono">
+                    </div>
+                    <div class="campo">
+                        <label for="correoelectronico">Correo Electronico:</label>
+                        <input type="text"id="correo" name="correo">
+                    </div>
+                    <div class="campo">
+                        <label for="Direccion">Direccion:</label>
+                        <input type="text"id="direccion" name="direccion">
+                    </div>
+                    <div class="campo">
+                        <label for="edad">Edad:</label>
+                        <input type="text"id="edad" name="edad">
+                    </div>
+                    <div class="campo genero">
+                        <label for="genero">Genero:</label>
+                        <input type="radio" name="genero" value="masculino">
+                        <label for="genero">Masculino:</label>
+                        <input type="radio" name="genero" value="femenino">
+                        <label for="genero">Femenino:</label>
+                    </div>
+                    <div class="campo">
+                        <label for="imagen">Imagen de perfil:</label>
+                        <input type="file" id="imagen" name="imagen">
+                    </div>
+                    <div>
+                        <button id="submmitButtom" class="button">Registrarme</button>
+                    </div>
+                </fieldset>
+                </form>
+                <div>
+                    <img src="shutterstock_590291273.jpg" alt="">
+                </div>
+        </section>
+        </main>
+
+        <footer class="pie-pagina">
+        <div class="contenido-pie">
+            <div class="seccion-pie">
+                <h3>Contacto</h3>
+                <p>📞 Teléfono: (123) 456-7890</p>
+                <p>✉️ Email: info@huellayhogar.com</p>
+                <p>📍 Dirección: Av. Principal #123</p>
+            </div>
+
+            <div class="seccion-pie">
+                <h3>Horarios</h3>
+                <p>Lunes a Viernes: 9:00 - 20:00</p>
+                <p>Sábados: 10:00 - 18:00</p>
+                <p>Domingos: 10:00 - 14:00</p>
+            </div>
+
+            <div class="seccion-pie">
+                <h3>Síguenos</h3>
+                <p>Facebook: /huellayhogar</p>
+                <p>Instagram: @huellayhogar</p>
+                <p>Twitter: @huellayhogar</p>
+            </div>
+        </div>
+        </footer>
+        
+    </body>
+    </html>
